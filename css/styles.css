@@ -1,0 +1,260 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.devider{
+  height: 4px;
+  width: 60px;
+  background-color: #00FFFF;
+  margin-top: 10px;
+  margin-bottom: 3em;
+}
+
+/* FIN GENERAL */
+
+/* INICIO */
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color: #202124;
+  color: #ffff;
+}
+
+  /* BARRA SUPERIOR */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.menu{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu li{
+list-style: none;
+
+}
+
+.menu a{
+color: #ffff;
+text-decoration: none;
+padding: 10px 20px;
+font-size: 1.5em;
+}
+
+.menu a:hover{
+color: #00FFFF;
+background-color: #ffff;
+transition: ease-in .4s;
+}
+
+  /* FIN BARRA SUPERIOR */
+
+.main{
+  margin: 0 auto;
+  width: 70vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  align-items: center;
+}
+
+.info p{
+  padding: 5px;
+}
+
+h1{
+  color: #ffff;
+  font-size: 3em;
+}
+
+h1 span{
+  color: #00FFFF;
+}
+
+.lista{
+  padding: 5px 20px;
+  border: none;
+  margin-top: 10px;
+  color: #ffff;
+}
+
+.lista li{
+  font-size: 1.2em;
+  padding: 4px;
+}
+
+.lista li:hover{
+  color: #00FFFF;
+}
+
+.main img{
+  width: 60%;
+}
+
+/* FIN INICIO */
+
+/* VIDEO */
+
+.about{
+  width: 100vw;
+  background-color: #202124;
+}
+
+.about video{
+  width: 100%;
+}
+
+/* FIN VIDEO */
+
+/* PORTFOLIO */
+
+.portfolio{
+  width: 100vw;
+  background-color: #202124;
+  color: #ffff;
+  margin: auto;
+}
+
+.nose{
+  width: 100vw;
+  padding: 2em;
+}
+
+.nose h2{
+  font-size: 2.5em;
+}
+
+.portfolio .container{
+  width: 80vw;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.card {
+display: inline-block;
+  width: 30%;
+  padding: 1em;
+}
+
+.card img {
+  margin: 2em;
+  width: 100%;
+}
+
+/* FIN PORTFOLIO */
+
+/* CONTACTOS */
+
+.card_title{
+  padding: 20px;
+}
+
+.contactos{
+  padding: 3em;
+  margin: 0 auto;
+  background-image: url("../img/contact.png");
+  background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
+
+.contactos a{
+  text-decoration: none;
+  color: #00BDE3;
+
+  font-size: 1.5em;
+}
+
+.contactos a:hover{
+  color: #00FFFF;
+}
+
+.contactos .correo{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.contactos .mail{
+  color: #00FFFF;
+}
+
+.contact-main{
+  width: 100vw;
+}
+
+.contact-main h2{
+  font-size: 2.5em;
+}
+
+.contactos .social{
+  width: 80vw;
+
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.tarjeta {
+display: inline-block;
+  width: 30%;
+  margin:2em ;
+
+}
+
+.tarjeta img {
+  width: 100%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+/* FIN CONTACTOS */
+
+/* FOOTER */
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #00FFFF;
+  color: #ffff;
+  padding: 5em;
+}
+
+.footer h2{
+  font-size: 3em;
+}
+
+.footer h5{
+  font-size: 1.5em;
+}
+
+/* FIN FOOTER */
+
+.garantia{
+  width: 100vw;
+  background-color: black;
+  color: #ffff;
+  padding: 2em;
+}
+
